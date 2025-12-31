@@ -1,6 +1,8 @@
 **/*.yaml
 **/*.ser
 .env
+schemacrawler-mcpserver-early-access-release.yaml
+schemacrawler-mcpserver-local-test.yaml
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,visualstudiocode,intellij+all
