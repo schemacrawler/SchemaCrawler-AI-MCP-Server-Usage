@@ -31,4 +31,4 @@ The SchemaCrawler AI MCP Server is available as a Docker image [schemacrawler/sc
 
 ## Getting Started
 
-Refer to the [getting started](../docs/getting-started.md) documentation.
+Refer to the [getting started](../docs/getting-started.md) documentation, and more documentation in [docs/](../docs/index.md).
