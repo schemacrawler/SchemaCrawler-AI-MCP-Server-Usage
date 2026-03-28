@@ -4,7 +4,7 @@
 services:
 
   schemacrawler-mcpserver:
-    image: schemacrawler/schemacrawler-ai:latest
+    image: mcp/schemacrawler-ai:latest
     container_name: schemacrawler-mcpserver
     stdin_open: true
     tty: true

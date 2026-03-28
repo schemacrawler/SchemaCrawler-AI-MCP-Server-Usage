@@ -16,7 +16,7 @@ The SchemaCawler AI MCP Server is available as a Docker image from [Docker Hub](
 
 1. Pull the latest image for SchemaCrawler AI MCP Server
    ```sh
-   docker pull schemacrawler/schemacrawler-ai:latest
+   docker compose -f schemacrawler-mcpserver.yaml pull
    ```
 2. Run the SchemaCrawler AI MCP Server
    ```sh
