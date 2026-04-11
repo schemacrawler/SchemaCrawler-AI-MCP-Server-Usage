@@ -5,7 +5,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/schemacrawler/schemacrawler?style=social)
 
 
-# <img src="https://raw.githubusercontent.com/schemacrawler/SchemaCrawler/main/schemacrawler-website/src/site/resources/images/schemacrawler_logo.png" height="100px" width="100px" valign="middle"/> SchemaCrawler AI MCP Server: Usage
+# <img src="https://github.com/schemacrawler/SchemaCrawler-Usage/blob/98e442d9a957070d45e87109d5b32d7f17b62927/schemacrawler-website/src/site/resources/images/schemacrawler_logo.png?raw=true" height="100px" width="100px" valign="middle"/> SchemaCrawler AI MCP Server: Usage
 
 > [!NOTE]  
 > * Please see the [SchemaCrawler website](https://www.schemacrawler.com/) for more details.
