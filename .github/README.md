@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 **:star: Star it :arrow_heading_up: if you love it!**
 
-[![Quick Build](https://github.com/schemacrawler/SchemaCrawler-AI/workflows/Quick%20Build/badge.svg)](https://github.com/schemacrawler/SchemaCrawler-AI/actions?query=workflow%3A%22Quick+Build%22)
+[![Build](https://github.com/schemacrawler/SchemaCrawler-AI/actions/workflows/build-with-dependencies.yml/badge.svg)](https://github.com/schemacrawler/SchemaCrawler-AI/actions/workflows/build-with-dependencies.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/schemacrawler/schemacrawler-ai?color=FFDAB9)](https://hub.docker.com/r/schemacrawler/schemacrawler-ai/)
 [![Docker MCP Pulls](https://img.shields.io/docker/pulls/mcp/schemacrawler-ai?color=FFDAB9)](https://hub.docker.com/r/mcp/schemacrawler-ai/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/schemacrawler/schemacrawler?style=social)
