@@ -17,7 +17,7 @@ services:
       POSTGRES_PASSWORD: ${SCHCRWLR_DATABASE_PASSWORD}
 
   schemacrawler-mcpserver:
-    image: mcp/schemacrawler-ai:latest
+    image: schemacrawler/schemacrawler-ai:latest
     container_name: schemacrawler-mcpserver
     stdin_open: true
     tty: true
