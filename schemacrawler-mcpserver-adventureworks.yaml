@@ -15,6 +15,12 @@ services:
       # (put these in your .env file)
       POSTGRES_USER: ${SCHCRWLR_DATABASE_USER}
       POSTGRES_PASSWORD: ${SCHCRWLR_DATABASE_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U schemacrawler"]
+      interval: 5s
+      timeout: 5s
+      retries: 4
+      start_period: 8s
 
   schemacrawler-mcpserver:
     image: schemacrawler/schemacrawler-ai:latest
@@ -22,7 +28,8 @@ services:
     stdin_open: true
     tty: true
     depends_on:
-      - adventureworks
+      adventureworks:
+        condition: service_healthy
     environment:
     # See https://www.schemacrawler.com/database-support.html
     # for connecting to other databases
@@ -45,3 +52,9 @@ services:
     - type: bind
       source: ./
       target: /home/schcrwlr/share
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9191/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 4
+      start_period: 60s

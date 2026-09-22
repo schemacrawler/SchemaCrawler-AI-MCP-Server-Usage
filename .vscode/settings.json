@@ -45,7 +45,7 @@
     "cursor-global": true,
     "cursor-workspace": true
   },
-  "workbench.colorTheme": "Light Modern",
+  "workbench.colorTheme": "GitHub Light",
   "workbench.iconTheme": "material-icon-theme",
   "git.autoStash": true
 }
