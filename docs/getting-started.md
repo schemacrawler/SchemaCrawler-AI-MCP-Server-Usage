@@ -47,6 +47,17 @@ The SchemaCawler AI MCP Server is available as a Docker image from [Docker Hub](
    ```
 2. Configure a connection to your database in the "schemacrawler-mcpserver.yaml" file, and follow the steps above again. See [additional configuration parameters which can be set as environmental variables](https://github.com/schemacrawler/SchemaCrawler-AI/blob/main/schemacrawler-ai-mcpserver/mcp-server-registration.json).
 
+### Identify a database server
+
+When using several SchemaCrawler AI MCP Server instances, set these optional environment variables for each instance. For example:
+
+```yaml
+SCHCRWLR_DATABASE_ALIAS: crm-prod
+SCHCRWLR_DATABASE_DESCRIPTION: CRM system of record
+```
+
+The alias and database product are included in MCP tool results to help clients distinguish between server instances.
+
 
 ## Use Other MCP Clients
 
