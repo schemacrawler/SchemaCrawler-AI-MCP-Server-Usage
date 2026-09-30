@@ -18,7 +18,8 @@ SchemaCrawler is a free database schema discovery and comprehension tool. Schema
 
 This is a bare project that acts as an MCP client for the [SchemaCrawler AI MCP Server](https://github.com/schemacrawler/SchemaCrawler-AI) for use in "Agent" mode. You can find documentation on how to use the server here.
 
-> The SchemaCrawler AI MCP Server is available at schemacrawler/schemacrawler-ai.
+> [!NOTE] 
+> The SchemaCrawler AI MCP Server is available at [schemacrawler/schemacrawler-ai](https://hub.docker.com/r/schemacrawler/schemacrawler-ai).
 
 
 ## Prerequisites
